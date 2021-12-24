@@ -8,7 +8,7 @@ class MailSenderTest {
     void sendMail() {
         MailSender sender = new MailSender();
 
-        User user1 = new User("SergioM", "smndz81@gmail.com");
+        User user1 = new User("Chejito", "fake@mail.com");
 
         assertEquals(sender.sendMail(user1), 1);
     }
